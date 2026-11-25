@@ -1,0 +1,33 @@
+{
+  "name": "pulse-chat",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node test/realtime-test.js",
+    "test:e2ee": "node test/e2ee-test.js",
+    "test:webrtc": "node test/webrtc-test.js",
+    "test:bots": "node test/bot-and-channel-test.js",
+    "test:cluster": "node test/cluster-test.js",
+    "test:phone": "node test/phone-auth-test.js",
+    "test:audio": "node test/audio-test.js",
+    "test:all": "node test/realtime-test.js && node test/e2ee-test.js && node test/webrtc-test.js && node test/bot-and-channel-test.js && node test/cluster-test.js && node test/phone-auth-test.js && node test/audio-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mime-types": "^3.0.2",
+    "multer": "^2.5.0",
+    "pg": "^8.23.1",
+    "socket.io": "^4.8.4",
+    "uuid": "^14.0.3"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}

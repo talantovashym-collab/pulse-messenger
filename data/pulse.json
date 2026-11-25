@@ -1,0 +1,1901 @@
+{
+  "users": [
+    {
+      "id": "usr_alex",
+      "username": "alex",
+      "displayName": "Alex Rivera",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "Building the next-gen messenger 🚀",
+      "online": true,
+      "lastSeen": "2026-11-07T11:11:02.712Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "vVfdMeVdNd6hYKp50l2n2VXU8ly2lmGTxGHXsJJgMMI",
+        "y": "00e5jLdSXJnT9NfxHFra1v2VOZavok9KOSnyFD05vyA"
+      }
+    },
+    {
+      "id": "usr_sarah",
+      "username": "sarah",
+      "displayName": "Sarah Chen",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "status": "Design systems & UX enthusiast 🎨",
+      "online": true,
+      "lastSeen": "2026-11-07T11:10:55.687Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "sc00ChWYLiCrKoLvge5_kuzx6EPp5h_08D8jrXIdmPg",
+        "y": "Fzuekap1hp8xQ2tehumI154a2t-WKxwCRGjKHj4T7rQ"
+      }
+    },
+    {
+      "id": "usr_marcus",
+      "username": "marcus",
+      "displayName": "Marcus Vance",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "status": "Backend & distributed systems ⚡",
+      "online": false,
+      "lastSeen": "2026-11-07T11:10:04.581Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "yT3rF_CcuIvH_rGRncEQGYktiXjAj2eg9fHv1TtcdhY",
+        "y": "xP7GXZeFOA3Yh4_OWsEDehRy1glt1xWSW-VLTdeaJKo"
+      }
+    },
+    {
+      "id": "usr_elena",
+      "username": "elena",
+      "displayName": "Elena Rostova",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "status": "Security & cryptography researcher 🔐",
+      "online": false,
+      "lastSeen": "2026-10-31T11:52:39.132Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "lL-iKMIH3JBprPzSaHDSqXu1qBC_-b2MiWWd8zE2cng",
+        "y": "-B5VTadgLVVRtN3G-pQkdPfnHfhwwR21Cf3D_XSDDy8"
+      }
+    },
+    {
+      "id": "usr_pulse_bot",
+      "username": "pulse_bot",
+      "displayName": "Pulse Sentinel 🤖",
+      "avatar": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=150&auto=format&fit=crop&q=80",
+      "status": "Official AI Automation & Security Bot",
+      "isBot": true,
+      "online": false,
+      "lastSeen": "2026-11-07T11:10:35.175Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "k0hPW2Ls-TU4EPPs0kslMyfoqwc0aK9d70HpnnFcC9A",
+        "y": "6qK18EBYQV2T31YviPCJJzSaaxb7oON-0EHEM7cnvZ0"
+      }
+    },
+    {
+      "id": "usr_p_1793445817579_6cde",
+      "username": "u_15556256608",
+      "phone": "+15556256608",
+      "displayName": "David TestFriend",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=+15556256608",
+      "status": "Ready to conquer WhatsApp!",
+      "online": false,
+      "lastSeen": "2026-10-31T11:50:41.279Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "L0cGpNvX35vv3VWJlUFytrKDnJGBurv_MhktHik4758",
+        "y": "BnUj45jYvlazf4mqpiJ_unXLstfHS3P19onCfn--PYc"
+      }
+    },
+    {
+      "id": "usr_p_1793445830401_fe41",
+      "username": "u_15557579210",
+      "phone": "+15557579210",
+      "displayName": "David TestFriend",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=+15557579210",
+      "status": "Ready to conquer WhatsApp!",
+      "online": false,
+      "lastSeen": "2026-10-31T11:32:03.155Z"
+    },
+    {
+      "id": "usr_p_1793447630280_664c",
+      "username": "u_996709208299",
+      "phone": "+996709208299",
+      "displayName": "dgg",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=+996709208299",
+      "status": "Hey there! I am using Pulse Messenger",
+      "online": false,
+      "lastSeen": "2026-11-07T11:10:18.016Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "hAWafqXfcihQXEnxTv1ZoZmPioZ43r_-dPKdrsSJvWo",
+        "y": "WjF6aiPwAkz59p9eaUnBsis8wWAJXmeJFtv0Op-_aG4"
+      }
+    },
+    {
+      "id": "usr_p_1793447649408_78cb",
+      "username": "u_15552741006",
+      "phone": "+15552741006",
+      "displayName": "David TestFriend",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=+15552741006",
+      "status": "Ready to conquer WhatsApp!",
+      "online": false,
+      "lastSeen": "2026-10-31T12:05:19.802Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "iI5M-J389oQgUpKb6r0Oryx1gm2f3BK7xvdCaqkGabY",
+        "y": "83c2ZhSCESFYPNYia8dLEIPHJEkcTtgh3HQHyFuiq0I"
+      }
+    },
+    {
+      "id": "usr_p_1793448347339_29ba",
+      "username": "u_15551458202",
+      "phone": "+15551458202",
+      "displayName": "David TestFriend",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=+15551458202",
+      "status": "Ready to conquer WhatsApp!",
+      "online": false,
+      "lastSeen": "2026-10-31T12:05:47.512Z"
+    },
+    {
+      "id": "usr_p_1794049735898_14b1",
+      "username": "u_15559263123",
+      "phone": "+15559263123",
+      "displayName": "David TestFriend",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=+15559263123",
+      "status": "Ready to conquer WhatsApp!",
+      "online": false,
+      "lastSeen": "2026-11-07T11:08:56.035Z"
+    },
+    {
+      "id": "usr_p_1794049802612_db9d",
+      "username": "u_1996709208299",
+      "phone": "+1+996709208299",
+      "displayName": "jhkhdf",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=+1+996709208299",
+      "status": "Hey there! I am using Pulse Messenger",
+      "online": false,
+      "lastSeen": "2026-11-07T11:10:15.392Z",
+      "publicKey": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "-6K1WNiFZpR62zm_qXnr4efh50r46k8oJYheXQLIHkc",
+        "y": "wYVBOeVFg48mt8teG72_AI0Vyl3YgtkKY9fdFWVs29I"
+      }
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat_1794049735925_17d958",
+      "type": "direct",
+      "name": "David TestFriend",
+      "description": "",
+      "avatar": null,
+      "members": [
+        "usr_alex",
+        "usr_p_1794049735898_14b1"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-11-07T11:08:55.925Z"
+    },
+    {
+      "id": "chat_1793448347389_5f8f9f",
+      "type": "direct",
+      "name": "David TestFriend",
+      "description": "",
+      "avatar": null,
+      "members": [
+        "usr_alex",
+        "usr_p_1793448347339_29ba"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-10-31T12:05:47.389Z"
+    },
+    {
+      "id": "chat_1793447649454_56b5cf",
+      "type": "direct",
+      "name": "David TestFriend",
+      "description": "",
+      "avatar": null,
+      "members": [
+        "usr_alex",
+        "usr_p_1793447649408_78cb"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-10-31T11:54:09.454Z"
+    },
+    {
+      "id": "chat_1793445830446_bdaf96",
+      "type": "direct",
+      "name": "David TestFriend",
+      "description": "",
+      "avatar": null,
+      "members": [
+        "usr_alex",
+        "usr_p_1793445830401_fe41"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-10-31T11:23:50.447Z"
+    },
+    {
+      "id": "chat_1793445817639_41c67d",
+      "type": "direct",
+      "name": "David TestFriend",
+      "description": "",
+      "avatar": null,
+      "members": [
+        "usr_alex",
+        "usr_p_1793445817579_6cde"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-10-31T11:23:37.639Z"
+    },
+    {
+      "id": "chat_channel_pulse",
+      "type": "channel",
+      "name": "Pulse Official Announcements 📢",
+      "handle": "@pulse_official",
+      "description": "Official product updates, security briefings & architecture releases from the Pulse Core Team.",
+      "avatar": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=150&auto=format&fit=crop&q=80",
+      "ownerId": "usr_alex",
+      "verified": true,
+      "subscribers": 28400,
+      "members": [
+        "usr_alex",
+        "usr_sarah",
+        "usr_marcus",
+        "usr_elena",
+        "usr_pulse_bot",
+        "usr_p_1793445817579_6cde",
+        "usr_p_1793445830401_fe41",
+        "usr_p_1793447630280_664c",
+        "usr_p_1793447649408_78cb",
+        "usr_p_1793448347339_29ba",
+        "usr_p_1794049735898_14b1",
+        "usr_p_1794049802612_db9d"
+      ],
+      "pinnedMessageId": "msg_channel_init",
+      "createdAt": "2026-10-29T11:04:26.075Z"
+    },
+    {
+      "id": "chat_dm_alex_bot",
+      "type": "direct",
+      "name": "Pulse Sentinel 🤖",
+      "members": [
+        "usr_alex",
+        "usr_pulse_bot"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-10-31T11:04:26.076Z"
+    },
+    {
+      "id": "chat_1793442261948_7fa217",
+      "type": "group",
+      "name": "gfhhjghjh",
+      "description": "kjk",
+      "avatar": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=150&auto=format&fit=crop&q=80",
+      "members": [
+        "usr_marcus",
+        "usr_alex",
+        "usr_sarah",
+        "usr_elena"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-10-31T10:24:21.948Z"
+    },
+    {
+      "id": "chat_global",
+      "type": "group",
+      "name": "Global Lounge 🌍",
+      "description": "Public community channel for all Pulse users",
+      "avatar": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=150&auto=format&fit=crop&q=80",
+      "members": [
+        "usr_alex",
+        "usr_sarah",
+        "usr_marcus",
+        "usr_elena",
+        "usr_p_1793445817579_6cde",
+        "usr_p_1793445830401_fe41",
+        "usr_p_1793447630280_664c",
+        "usr_p_1793447649408_78cb",
+        "usr_p_1793448347339_29ba",
+        "usr_p_1794049735898_14b1",
+        "usr_p_1794049802612_db9d"
+      ],
+      "pinnedMessageId": "msg_init_2",
+      "createdAt": "2026-10-30T09:50:01.855Z"
+    },
+    {
+      "id": "chat_arch",
+      "type": "group",
+      "name": "Core Architecture ⚙️",
+      "description": "Distributed systems, protocol design & scalability",
+      "avatar": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=150&auto=format&fit=crop&q=80",
+      "members": [
+        "usr_alex",
+        "usr_marcus",
+        "usr_elena"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-10-30T21:50:01.855Z"
+    },
+    {
+      "id": "chat_dm_alex_sarah",
+      "type": "direct",
+      "name": "Sarah Chen",
+      "members": [
+        "usr_alex",
+        "usr_sarah"
+      ],
+      "pinnedMessageId": "msg_1794049732751_f96caa0e",
+      "createdAt": "2026-10-31T03:50:01.855Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_init_1",
+      "chatId": "chat_global",
+      "senderId": "usr_sarah",
+      "text": "Welcome to Pulse Messenger! 🎉 We just launched the core real-time engine.",
+      "attachments": [],
+      "reactions": {
+        "🔥": [
+          "usr_alex",
+          "usr_marcus"
+        ],
+        "🚀": [
+          "usr_elena"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T06:50:01.855Z"
+    },
+    {
+      "id": "msg_init_2",
+      "chatId": "chat_global",
+      "senderId": "usr_alex",
+      "text": "📌 Mission briefing: Our goal is to conquer WhatsApp and Telegram by building faster sync, pristine UX, zero bloat, and enterprise-grade end-to-end security.",
+      "attachments": [],
+      "reactions": {
+        "💯": [
+          "usr_sarah",
+          "usr_marcus",
+          "usr_elena"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T07:50:01.855Z"
+    },
+    {
+      "id": "msg_init_3",
+      "chatId": "chat_global",
+      "senderId": "usr_marcus",
+      "text": "WebSocket low-latency transport is active! Message delivery status tracking is live too.",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_init_2",
+      "status": "read",
+      "createdAt": "2026-10-31T08:50:01.855Z"
+    },
+    {
+      "id": "msg_init_dm_1",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "Hey Alex! Have you reviewed the new dark mode color palette?",
+      "attachments": [],
+      "reactions": {
+        "👍": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T09:20:01.855Z"
+    },
+    {
+      "id": "msg_init_dm_2",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "Yes! The deep obsidian background and emerald accents look incredible.",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T09:35:01.855Z"
+    },
+    {
+      "id": "msg_1793440471817_fa1c8c26",
+      "chatId": "chat_global",
+      "senderId": "usr_alex",
+      "text": "hi",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T09:54:31.817Z"
+    },
+    {
+      "id": "msg_1793440477068_2636cceb",
+      "chatId": "chat_global",
+      "senderId": "usr_alex",
+      "text": "🎙️ Voice note (0:07)",
+      "attachments": [
+        {
+          "url": "/sounds/sample_voice_note.wav",
+          "filename": "voice_memo_001.ogg",
+          "mimetype": "audio/ogg",
+          "size": 42000,
+          "type": "audio"
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T09:54:37.068Z"
+    },
+    {
+      "id": "msg_1793440482698_9e068c26",
+      "chatId": "chat_global",
+      "senderId": "usr_alex",
+      "text": "🎙️ Voice note (0:07)",
+      "attachments": [
+        {
+          "url": "/sounds/sample_voice_note.wav",
+          "filename": "voice_memo_001.ogg",
+          "mimetype": "audio/ogg",
+          "size": 42000,
+          "type": "audio"
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T09:54:42.698Z"
+    },
+    {
+      "id": "msg_1793441980245_414bbb6a",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "Automated Test Message: 1793441980245",
+      "attachments": [],
+      "reactions": {
+        "🚀": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:19:40.245Z"
+    },
+    {
+      "id": "msg_1793442266972_9706747e",
+      "chatId": "chat_1793442261948_7fa217",
+      "senderId": "usr_marcus",
+      "text": "uiyiyiu",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:24:26.972Z"
+    },
+    {
+      "id": "msg_1793442289343_fccaec66",
+      "chatId": "chat_1793442261948_7fa217",
+      "senderId": "usr_sarah",
+      "text": "iujouj",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:24:49.343Z"
+    },
+    {
+      "id": "msg_1793442593843_40495081",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "Sz4hRDjO2V9DrFNnFDxQJ+6B427ZQRMOE6YtsSVKqcJxXk2aTc4weAzLUNMvvUaoFmM+ug/BcAbzZGtrn+l1BcYOV7osQ1KBAB7L78wvP2vhSbSVSykrgTScAm7iZ3w=",
+      "iv": "Ubz7sqZXFo9sBJ5A",
+      "senderPublicJwk": {
+        "key_ops": [],
+        "ext": true,
+        "kty": "EC",
+        "x": "3VW0jp1fx92nfMBdfFYwGC0U9M-7_Kq1XEpoJVVRszg",
+        "y": "PJBLBIhs1vbZA37e-6kl3ZDz94Z3EtvGe22WOtKtaWA",
+        "crv": "P-256"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:29:53.843Z"
+    },
+    {
+      "id": "msg_1793442644193_a3a4917d",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "ZhJTwiYzhhoz/wvOSbeFoS/BwTRbZTCmEekbiX87jHL6+ejr15NXS7gEEAuMZ8atq/SBhuL4too1Ui+BZ9hpUBybZsWHo255sTxeQ/mWCIOuDv+XygFk3RS9WwS18ns=",
+      "iv": "zQx6eOu5nHAA0iH5",
+      "senderPublicJwk": {
+        "key_ops": [],
+        "ext": true,
+        "kty": "EC",
+        "x": "BSvrL_NALdhhRPbqcGiIZMEZSQ8novesZR6CtuKunsQ",
+        "y": "ND5Fbf9PvsCloOD-zRvZN0v5sLPyprIZjAfVu8-zHnw",
+        "crv": "P-256"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:30:44.193Z"
+    },
+    {
+      "id": "msg_1793442663122_9b093662",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "Automated Test Message: 1793442663122",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {
+        "🚀": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:31:03.122Z"
+    },
+    {
+      "id": "msg_1793442663690_b805c11d",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "tfDdYaQ7RCNbWEr02kXo8Q+7mmRROtTNIeM40V5MYzzw9rawoTopsg/ju1Z4ibWJbC+Z0Iba1Hew1Q1hsvh0DXJhLinyfBv0kgd8xN3+6cxR945w7nfRqYqwXO3WhhA=",
+      "iv": "AYg8k3zmOLd72qQo",
+      "senderPublicJwk": {
+        "key_ops": [],
+        "ext": true,
+        "kty": "EC",
+        "x": "8gfiUVyA9PthvmTSgjDDy8PNFOikayKpySn9I_bprXw",
+        "y": "B7J2sHycfgBtxqaehauQ6uhZCfXStdmGmO819xxYgRQ",
+        "crv": "P-256"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:31:03.690Z"
+    },
+    {
+      "id": "msg_1793442941885_5a71fb7e",
+      "chatId": "chat_1793442261948_7fa217",
+      "senderId": "usr_marcus",
+      "text": "🎙️ Voice note (0:07)",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/sounds/sample_voice_note.wav",
+          "filename": "voice_memo_001.ogg",
+          "mimetype": "audio/ogg",
+          "size": 42000,
+          "type": "audio"
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:35:41.885Z"
+    },
+    {
+      "id": "msg_1793442943400_8c107a1a",
+      "chatId": "chat_1793442261948_7fa217",
+      "senderId": "usr_marcus",
+      "text": "🎙️ Voice note (0:07)",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/sounds/sample_voice_note.wav",
+          "filename": "voice_memo_001.ogg",
+          "mimetype": "audio/ogg",
+          "size": 42000,
+          "type": "audio"
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:35:43.400Z"
+    },
+    {
+      "id": "msg_1793443030852_bbfb7303",
+      "chatId": "chat_arch",
+      "senderId": "usr_marcus",
+      "text": "jhhj\no\"\"\"\n''''",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:37:10.852Z"
+    },
+    {
+      "id": "msg_1793443051688_050821cc",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "Automated Test Message: 1793443051688",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {
+        "🚀": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:37:31.688Z"
+    },
+    {
+      "id": "msg_1793443052284_451eb79b",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "GTuO3AYbuptjCK5GXJJ3Siu7IJmP3B+XmlORYEBDrklF+eEfFOdd7Cs6yYy2psukQx+eSpUXT6iPTW0wmi7D1qlAge+Goyt8LTGHlt3Pjns298srJQxeqLroMGqgxUs=",
+      "iv": "Qa1mA6ZVMtLt+x/n",
+      "senderPublicJwk": {
+        "key_ops": [],
+        "ext": true,
+        "kty": "EC",
+        "x": "BIRBA0gG49bYBV89KveK9a9pWUNcyroEG6Xu9gkdxvA",
+        "y": "F5L9r7SGOgrPOVNavKLYJ_brNTRNvtZHO-vnNZAklxo",
+        "crv": "P-256"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:37:32.284Z"
+    },
+    {
+      "id": "msg_1793443099890_c4886368",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "jbXiOX311HPL4X6zoI20EM3EqKDHeuYe",
+      "iv": "Ggr3BAaYZMF5+eBL",
+      "senderPublicJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "sc00ChWYLiCrKoLvge5_kuzx6EPp5h_08D8jrXIdmPg",
+        "y": "Fzuekap1hp8xQ2tehumI154a2t-WKxwCRGjKHj4T7rQ"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:38:19.890Z"
+    },
+    {
+      "id": "msg_1793443110207_d15b765c",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "9+iSl2/Ia6XB2CL6goov202/08aKVNon",
+      "iv": "4C6bK2X4QwufZKgm",
+      "senderPublicJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "vVfdMeVdNd6hYKp50l2n2VXU8ly2lmGTxGHXsJJgMMI",
+        "y": "00e5jLdSXJnT9NfxHFra1v2VOZavok9KOSnyFD05vyA"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T10:38:30.207Z"
+    },
+    {
+      "id": "msg_channel_init",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_pulse_bot",
+      "text": "📢 **Pulse v1.3 Major Release Briefing**:\n\n• **Clustering Engine**: Horizontal multi-instance sync with Redis & Pub/Sub cluster bus.\n• **Telegram-Style Channels**: Broadcast channels with verified handles and read-only feeds.\n• **Zero-Knowledge E2EE**: Native Web Crypto ECDH P-256 + AES-GCM-256 with 60-digit safety numbers.\n• **WebRTC Calling**: Real-time peer-to-peer audio & video calls with STUN traversal.\n\nSubscribe and react to stay informed! 🚀",
+      "attachments": [],
+      "reactions": {
+        "🔥": [
+          "usr_alex",
+          "usr_sarah",
+          "usr_marcus"
+        ],
+        "❤️": [
+          "usr_elena"
+        ],
+        "🚀": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T09:04:26.075Z"
+    },
+    {
+      "id": "msg_bot_init",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "👋 Hi Alex! I am Pulse Sentinel 🤖. You can test commands like `/status`, `/price btc`, or `/help`. How can I assist you?",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:04:26.076Z"
+    },
+    {
+      "id": "msg_bot_1793445002310_57515e",
+      "chatId": "chat_global",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 Automated system health check from Telegram Bot API.",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:02.310Z"
+    },
+    {
+      "id": "msg_1793445002535_6c81c043",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/price btc",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-10-31T11:10:02.535Z"
+    },
+    {
+      "id": "msg_bot_1793445002938_7833ac",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📈 **Market Ticker [BTC]**:\n• **Price**: `$94,320.50`\n• **24h Change**: `+3.4%` 🟢\n• **Volume**: `$1.42B`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1793445002535_6c81c043",
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:02.938Z"
+    },
+    {
+      "id": "msg_1793445002944_01acbcb1",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/status",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-10-31T11:10:02.944Z"
+    },
+    {
+      "id": "msg_bot_1793445003349_f779c8",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📊 **Pulse Cluster Node Status**:\n\n• **Node PID**: `6776`\n• **Uptime**: `324 seconds`\n• **Memory (RSS)**: `41.0 MB` (Heap: `11.1 MB`)\n• **Transport**: `WebSocket + Cluster Pub/Sub`\n• **Database**: `ACID Active / PostgreSQL Adapter Ready`\n• **Encryption**: `ECDH P-256 + AES-GCM-256 Active`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1793445002944_01acbcb1",
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:03.349Z"
+    },
+    {
+      "id": "msg_post_1793445003358_389b43",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_alex",
+      "text": "🚀 Breaking Update: Pulse reaches 28.4K subscribers on @pulse_official!",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:03.358Z"
+    },
+    {
+      "id": "msg_1793445024407_2d9b5c2c",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "Cross-Node Cluster Sync: 1793445024407",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:24.407Z"
+    },
+    {
+      "id": "msg_1793445037661_01f627ac",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "Automated Test Message: 1793445037659",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {
+        "🚀": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:37.661Z"
+    },
+    {
+      "id": "msg_1793445038326_e329508b",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "4ArHKS0+oeD8v4czGDmQCBCQERA3PNTT7U17pfw717rPp563VXQ5muLw1/tnndmtjZS69tuLYQwLLwx5F1tFu1fKU/BZMkt7TmNwk9bXt1kI0JqhjPP5rTEN7iR5mpA=",
+      "iv": "NYVV2QcL6DJjw8sT",
+      "senderPublicJwk": {
+        "key_ops": [],
+        "ext": true,
+        "kty": "EC",
+        "x": "_NPmfjyx1vahWM9Qq7rKNR5Z8mh9R2FWEcjBdT6cocU",
+        "y": "r5TWS0OZawqokS57e051qStpo90fJUIWh5aM-A1rvHQ",
+        "crv": "P-256"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:38.326Z"
+    },
+    {
+      "id": "msg_bot_1793445039001_ffd03a",
+      "chatId": "chat_global",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 Automated system health check from Telegram Bot API.",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:39.001Z"
+    },
+    {
+      "id": "msg_1793445039236_692a485f",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/price btc",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-10-31T11:10:39.236Z"
+    },
+    {
+      "id": "msg_bot_1793445039639_cfd698",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📈 **Market Ticker [BTC]**:\n• **Price**: `$94,320.50`\n• **24h Change**: `+3.4%` 🟢\n• **Volume**: `$1.42B`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1793445039236_692a485f",
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:39.639Z"
+    },
+    {
+      "id": "msg_1793445039643_a903f567",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/status",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-10-31T11:10:39.643Z"
+    },
+    {
+      "id": "msg_bot_1793445040047_7c3632",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📊 **Pulse Cluster Node Status**:\n\n• **Node PID**: `6776`\n• **Uptime**: `360 seconds`\n• **Memory (RSS)**: `40.3 MB` (Heap: `11.0 MB`)\n• **Transport**: `WebSocket + Cluster Pub/Sub`\n• **Database**: `ACID Active / PostgreSQL Adapter Ready`\n• **Encryption**: `ECDH P-256 + AES-GCM-256 Active`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1793445039643_a903f567",
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:40.047Z"
+    },
+    {
+      "id": "msg_post_1793445040057_5ba3fd",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_alex",
+      "text": "🚀 Breaking Update: Pulse reaches 28.4K subscribers on @pulse_official!",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:40.057Z"
+    },
+    {
+      "id": "msg_1793445040960_b5a3b5c8",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "Cross-Node Cluster Sync: 1793445040959",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:10:40.960Z"
+    },
+    {
+      "id": "msg_1793445099719_087919e7",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_alex",
+      "text": "kfkf",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:11:39.719Z"
+    },
+    {
+      "id": "msg_bot_1793445100121_6adc42",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 **Pulse AI**: I received your message: _\"kfkf\"_. How can I assist you with Pulse Messenger today? Try typing `/help` or `/price btc`!",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1793445099719_087919e7",
+      "status": "read",
+      "createdAt": "2026-10-31T11:11:40.121Z"
+    },
+    {
+      "id": "msg_1793445103213_758f808e",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_alex",
+      "text": "ddd",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:11:43.213Z"
+    },
+    {
+      "id": "msg_bot_1793445103618_c5489a",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 **Pulse AI**: I received your message: _\"ddd\"_. How can I assist you with Pulse Messenger today? Try typing `/help` or `/price btc`!",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1793445103213_758f808e",
+      "status": "read",
+      "createdAt": "2026-10-31T11:11:43.619Z"
+    },
+    {
+      "id": "msg_1793445817750_73f1eb50",
+      "chatId": "chat_1793445817639_41c67d",
+      "senderId": "usr_alex",
+      "text": "Hey David! Testing Pulse with real number.",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "delivered",
+      "createdAt": "2026-10-31T11:23:37.750Z"
+    },
+    {
+      "id": "msg_1793445826284_b724d2ec",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "Automated Test Message: 1793445826285",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {
+        "🚀": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:23:46.284Z"
+    },
+    {
+      "id": "msg_1793445827031_0cf0b770",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "lgFtGGVGIAZfYtApfGr6sjJiAJx8/0ioh+EDq+xZKPGKfqRzuLoxYo6fFQtIvTGR8ixG+1VzEK1QNBMbKdOVIxRC8WsGS6O3MbkGOKkBeetdz9hjr8RXks4rwRA99bs=",
+      "iv": "Q9fxCgtdwBTH9bxw",
+      "senderPublicJwk": {
+        "key_ops": [],
+        "ext": true,
+        "kty": "EC",
+        "x": "mpZ5szBYRD1iaD9PAPYTjY1GK5aXJXkT52W4vUQPi20",
+        "y": "MNW3p0axOsTOQnASMZWVO4barzps-64tx4qxc9F0yQw",
+        "crv": "P-256"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:23:47.031Z"
+    },
+    {
+      "id": "msg_bot_1793445828067_3d7910",
+      "chatId": "chat_global",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 Automated system health check from Telegram Bot API.",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:23:48.067Z"
+    },
+    {
+      "id": "msg_1793445828309_b670afaa",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/price btc",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-10-31T11:23:48.310Z"
+    },
+    {
+      "id": "msg_bot_1793445828719_12d764",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📈 **Market Ticker [BTC]**:\n• **Price**: `$94,320.50`\n• **24h Change**: `+3.4%` 🟢\n• **Volume**: `$1.42B`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1793445828309_b670afaa",
+      "status": "read",
+      "createdAt": "2026-10-31T11:23:48.719Z"
+    },
+    {
+      "id": "msg_1793445828727_53b82a7a",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/status",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-10-31T11:23:48.727Z"
+    },
+    {
+      "id": "msg_bot_1793445829136_82393f",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📊 **Pulse Cluster Node Status**:\n\n• **Node PID**: `14872`\n• **Uptime**: `78 seconds`\n• **Memory (RSS)**: `40.6 MB` (Heap: `10.6 MB`)\n• **Transport**: `WebSocket + Cluster Pub/Sub`\n• **Database**: `ACID Active / PostgreSQL Adapter Ready`\n• **Encryption**: `ECDH P-256 + AES-GCM-256 Active`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1793445828727_53b82a7a",
+      "status": "read",
+      "createdAt": "2026-10-31T11:23:49.136Z"
+    },
+    {
+      "id": "msg_post_1793445829151_eeeea3",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_alex",
+      "text": "🚀 Breaking Update: Pulse reaches 28.4K subscribers on @pulse_official!",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:23:49.151Z"
+    },
+    {
+      "id": "msg_1793445830129_55d1de80",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "Cross-Node Cluster Sync: 1793445830130",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:23:50.129Z"
+    },
+    {
+      "id": "msg_1793445830555_17ae173a",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_alex",
+      "text": "Hey David! Testing Pulse with real number.",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:23:50.555Z"
+    },
+    {
+      "id": "msg_1793446021528_ccdfe329",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_p_1793445830401_fe41",
+      "text": "орлорфывфы",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:01.528Z"
+    },
+    {
+      "id": "msg_1793446042068_b1b36730",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_p_1793445830401_fe41",
+      "text": "оф",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:22.068Z"
+    },
+    {
+      "id": "msg_1793446045140_02e85f02",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_p_1793445830401_fe41",
+      "text": "лфтафн",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:25.140Z"
+    },
+    {
+      "id": "msg_1793446047679_0c165400",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_p_1793445830401_fe41",
+      "text": "ыв",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:27.679Z"
+    },
+    {
+      "id": "msg_1793446047917_334c65ce",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_p_1793445830401_fe41",
+      "text": "рывк",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:27.918Z"
+    },
+    {
+      "id": "msg_1793446048284_3ae48f95",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_p_1793445830401_fe41",
+      "text": "варп",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:28.284Z"
+    },
+    {
+      "id": "msg_1793446048557_9e063ec2",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_p_1793445830401_fe41",
+      "text": "ывар",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:28.557Z"
+    },
+    {
+      "id": "msg_1793446048786_c0473a7a",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_p_1793445830401_fe41",
+      "text": "ывап",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:28.786Z"
+    },
+    {
+      "id": "msg_1793446053952_b9cd889d",
+      "chatId": "chat_1793445830446_bdaf96",
+      "senderId": "usr_alex",
+      "text": "cfdhfgj",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:27:33.952Z"
+    },
+    {
+      "id": "msg_1793447568312_ab2db0ae",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "OiEspF5eKGL6jSAYSJnLQDg=",
+      "iv": "d5vviEueTQVbRrEw",
+      "senderPublicJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "sc00ChWYLiCrKoLvge5_kuzx6EPp5h_08D8jrXIdmPg",
+        "y": "Fzuekap1hp8xQ2tehumI154a2t-WKxwCRGjKHj4T7rQ"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T11:52:48.313Z"
+    },
+    {
+      "id": "msg_1793447649566_d22baf8a",
+      "chatId": "chat_1793447649454_56b5cf",
+      "senderId": "usr_alex",
+      "text": "Hey David! Testing Pulse with real number.",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "delivered",
+      "createdAt": "2026-10-31T11:54:09.566Z"
+    },
+    {
+      "id": "msg_1793448347499_d289260f",
+      "chatId": "chat_1793448347389_5f8f9f",
+      "senderId": "usr_alex",
+      "text": "Hey David! Testing Pulse with real number.",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "delivered",
+      "createdAt": "2026-10-31T12:05:47.500Z"
+    },
+    {
+      "id": "msg_1793457301790_51505535",
+      "chatId": "chat_global",
+      "senderId": "usr_marcus",
+      "text": "🎙️ Voice note (0:07)",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/sounds/sample_voice_note.wav",
+          "filename": "voice_memo_001.ogg",
+          "mimetype": "audio/ogg",
+          "size": 42000,
+          "type": "audio"
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-10-31T14:35:01.798Z"
+    },
+    {
+      "id": "msg_1794049718097_600647be",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "🎙️ Voice note (0:04)",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/uploads/1794049717913_b1aa07d1.wav",
+          "filename": "voice_note_test.wav",
+          "mimetype": "audio/wav",
+          "size": 352844,
+          "type": "audio",
+          "duration": 4
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:38.097Z"
+    },
+    {
+      "id": "msg_1794049732751_f96caa0e",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "Automated Test Message: 1794049732750",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {
+        "🚀": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:52.751Z"
+    },
+    {
+      "id": "msg_1794049733451_6e95aab9",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "rB8/0n/rzbzRWfwBA1+UPQQ5Oh2zIbZxWNELlZ/1ZFQ2WerxpQiSyCGjiFd18txbwrzHgERl0DT+Bx0mdNdRqc4ESicoCmv2C/jAfTzywRZD5z/XavjIOTKvi49cyS4=",
+      "iv": "ULUGgntuYB2NPiA/",
+      "senderPublicJwk": {
+        "key_ops": [],
+        "ext": true,
+        "kty": "EC",
+        "x": "sJl5aT2PB34ftcqhFpQsy6zzIH5l8LGvcROWK_Gz84Y",
+        "y": "XithKH-JUaa4vRel5Gh_7vNNVASjJIlwGgmoPsGdn3Q",
+        "crv": "P-256"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:53.451Z"
+    },
+    {
+      "id": "msg_bot_1794049734020_663a7c",
+      "chatId": "chat_global",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 Automated system health check from Telegram Bot API.",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:54.020Z"
+    },
+    {
+      "id": "msg_1794049734238_cfb2d74d",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/price btc",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-07T11:08:54.238Z"
+    },
+    {
+      "id": "msg_bot_1794049734641_721ac9",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📈 **Market Ticker [BTC]**:\n• **Price**: `$94,320.50`\n• **24h Change**: `+3.4%` 🟢\n• **Volume**: `$1.42B`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1794049734238_cfb2d74d",
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:54.641Z"
+    },
+    {
+      "id": "msg_1794049734647_e55c3342",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/status",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-07T11:08:54.647Z"
+    },
+    {
+      "id": "msg_bot_1794049735058_12ab60",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📊 **Pulse Cluster Node Status**:\n\n• **Node PID**: `5876`\n• **Uptime**: `37 seconds`\n• **Memory (RSS)**: `38.4 MB` (Heap: `11.6 MB`)\n• **Transport**: `WebSocket + Cluster Pub/Sub`\n• **Database**: `ACID Active / PostgreSQL Adapter Ready`\n• **Encryption**: `ECDH P-256 + AES-GCM-256 Active`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1794049734647_e55c3342",
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:55.058Z"
+    },
+    {
+      "id": "msg_post_1794049735072_d94193",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_alex",
+      "text": "🚀 Breaking Update: Pulse reaches 28.4K subscribers on @pulse_official!",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:55.072Z"
+    },
+    {
+      "id": "msg_1794049735732_30a862d2",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "Cross-Node Cluster Sync: 1794049735730",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:55.733Z"
+    },
+    {
+      "id": "msg_1794049736030_bd60a54d",
+      "chatId": "chat_1794049735925_17d958",
+      "senderId": "usr_alex",
+      "text": "Hey David! Testing Pulse with real number.",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "delivered",
+      "createdAt": "2026-11-07T11:08:56.030Z"
+    },
+    {
+      "id": "msg_1794049736368_9e7bf993",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "🎙️ Voice note (0:04)",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/uploads/1794049736171_2bb0aa5c.wav",
+          "filename": "voice_note_test.wav",
+          "mimetype": "audio/wav",
+          "size": 352844,
+          "type": "audio",
+          "duration": 4
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:08:56.368Z"
+    },
+    {
+      "id": "msg_1794049842255_e4771086",
+      "chatId": "chat_global",
+      "senderId": "usr_sarah",
+      "text": "jhgjhg",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:10:42.255Z"
+    },
+    {
+      "id": "msg_1794049867343_8c7800c0",
+      "chatId": "chat_global",
+      "senderId": "usr_alex",
+      "text": "jhkjh",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:11:07.343Z"
+    },
+    {
+      "id": "msg_1794049966595_076a3c71",
+      "chatId": "chat_global",
+      "senderId": "usr_alex",
+      "text": "🎙️ Voice note (0:05)",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/uploads/1794049966587_f1cfb79d.webm",
+          "filename": "voice_note_1794049966579.webm",
+          "mimetype": "audio/webm",
+          "size": 92681,
+          "type": "audio",
+          "duration": 5
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:12:46.595Z"
+    },
+    {
+      "id": "msg_1794050203823_5f03429f",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "1Btw8wXhqE2sNnBGFVGhbdlbyC0ufXo=",
+      "iv": "UQMFXONyVpkPjvJ0",
+      "senderPublicJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "vVfdMeVdNd6hYKp50l2n2VXU8ly2lmGTxGHXsJJgMMI",
+        "y": "00e5jLdSXJnT9NfxHFra1v2VOZavok9KOSnyFD05vyA"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-07T11:16:43.823Z"
+    },
+    {
+      "id": "msg_bot_1794050204226_40238c",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 **Pulse AI**: I received your message: _\"[🔒 End-to-End Encrypted]\"_. How can I assist you with Pulse Messenger today? Try typing `/help` or `/price btc`!",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1794050203823_5f03429f",
+      "status": "read",
+      "createdAt": "2026-11-07T11:16:44.226Z"
+    },
+    {
+      "id": "msg_1794050216321_db6be742",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "TOk3/TC6EwNX92XStVfj40RV036bqw==",
+      "iv": "Ysggxpkw6RHmAVPj",
+      "senderPublicJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "vVfdMeVdNd6hYKp50l2n2VXU8ly2lmGTxGHXsJJgMMI",
+        "y": "00e5jLdSXJnT9NfxHFra1v2VOZavok9KOSnyFD05vyA"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-07T11:16:56.321Z"
+    },
+    {
+      "id": "msg_bot_1794050216727_a14356",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 **Pulse AI**: I received your message: _\"[🔒 End-to-End Encrypted]\"_. How can I assist you with Pulse Messenger today? Try typing `/help` or `/price btc`!",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1794050216321_db6be742",
+      "status": "read",
+      "createdAt": "2026-11-07T11:16:56.727Z"
+    },
+    {
+      "id": "msg_1794050229937_8ee1e0a2",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "Fb+b9H0ndC0bM3Q7VpAGE6bUii9kvMbD0Ig=",
+      "iv": "kUG0InDaVwF6Q3bu",
+      "senderPublicJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "vVfdMeVdNd6hYKp50l2n2VXU8ly2lmGTxGHXsJJgMMI",
+        "y": "00e5jLdSXJnT9NfxHFra1v2VOZavok9KOSnyFD05vyA"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-07T11:17:09.937Z"
+    },
+    {
+      "id": "msg_bot_1794050230339_ed1a8c",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 **Pulse AI**: I received your message: _\"[🔒 End-to-End Encrypted]\"_. How can I assist you with Pulse Messenger today? Try typing `/help` or `/price btc`!",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1794050229937_8ee1e0a2",
+      "status": "read",
+      "createdAt": "2026-11-07T11:17:10.339Z"
+    },
+    {
+      "id": "msg_1794050259429_849b002d",
+      "chatId": "chat_1794049735925_17d958",
+      "senderId": "usr_alex",
+      "text": "",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/uploads/1794050256916_27ae93f5.jpg",
+          "filename": "photo_2021-01-31_23-43-52.jpg",
+          "mimetype": "image/jpeg",
+          "size": 236362,
+          "type": "image"
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-07T11:17:39.429Z"
+    },
+    {
+      "id": "msg_1794050279455_387020f7",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/uploads/1794050276179_d1958156.jpg",
+          "filename": "photo_2021-01-31_23-43-52.jpg",
+          "mimetype": "image/jpeg",
+          "size": 236362,
+          "type": "image"
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:17:59.455Z"
+    },
+    {
+      "id": "msg_1794050293708_4d6fc358",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/uploads/1794050289354_50d59fdd.png",
+          "filename": "50850354-7bed-43f7-9cb1-34985103d162.png",
+          "mimetype": "image/png",
+          "size": 2376085,
+          "type": "image"
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-07T11:18:13.708Z"
+    }
+  ]
+}
