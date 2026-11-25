@@ -87,8 +87,28 @@ npm start
 ```
 The server will boot on `http://localhost:3000`.
 
+---
+
+## 🐳 Production Docker Deployment (One-Click)
+
+Pulse Messenger includes a complete production Docker orchestration with **auto-restart on crash/reboot (`restart: unless-stopped`)**, **Nginx reverse proxy**, **PostgreSQL 16**, and **Redis 7**.
+
+### Quick Deploy:
+```bash
+# 1. Copy configuration
+cp .env.example .env
+
+# 2. Launch production stack
+docker compose up -d --build
+```
+Your app is now running on `http://localhost` (via Nginx Port 80) and `http://localhost:3000` with automated healthchecks!
+
+For complete cloud VPS instructions (Ubuntu, AWS EC2, DigitalOcean, Hetzner, SSL setup with Let's Encrypt), see the **[Production Deployment Guide (DEPLOYMENT.md)](DEPLOYMENT.md)**.
+
+---
+
 ### 3. Open in Browser
-Open [http://localhost:3000](http://localhost:3000) in your web browser.
+Open [http://localhost:3000](http://localhost:3000) (or `http://localhost` with Docker) in your web browser.
 
 ### 4. How to Test Two-Way Real-Time Chat
 1. Open [http://localhost:3000](http://localhost:3000) in Tab 1 (logged in as **Alex Rivera**).

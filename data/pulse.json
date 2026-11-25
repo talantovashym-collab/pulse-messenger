@@ -7,14 +7,14 @@
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
       "status": "Building the next-gen messenger 🚀",
       "online": true,
-      "lastSeen": "2026-11-07T11:11:02.712Z",
+      "lastSeen": "2026-11-25T12:00:19.761Z",
       "publicKey": {
-        "crv": "P-256",
-        "ext": true,
         "key_ops": [],
+        "ext": true,
         "kty": "EC",
-        "x": "vVfdMeVdNd6hYKp50l2n2VXU8ly2lmGTxGHXsJJgMMI",
-        "y": "00e5jLdSXJnT9NfxHFra1v2VOZavok9KOSnyFD05vyA"
+        "x": "7jJbzezlbTsF5QDf9l15bP-Vx9FuK7fC0rCg3A-E3vA",
+        "y": "hi_3FgywObr-fDdJJv8DfaA0efaBlu61UgCc4ylJqFM",
+        "crv": "P-256"
       }
     },
     {
@@ -23,15 +23,15 @@
       "displayName": "Sarah Chen",
       "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
       "status": "Design systems & UX enthusiast 🎨",
-      "online": true,
-      "lastSeen": "2026-11-07T11:10:55.687Z",
+      "online": false,
+      "lastSeen": "2026-11-25T12:00:19.938Z",
       "publicKey": {
-        "crv": "P-256",
-        "ext": true,
         "key_ops": [],
+        "ext": true,
         "kty": "EC",
-        "x": "sc00ChWYLiCrKoLvge5_kuzx6EPp5h_08D8jrXIdmPg",
-        "y": "Fzuekap1hp8xQ2tehumI154a2t-WKxwCRGjKHj4T7rQ"
+        "x": "FQA0SmhF6z8ZRR9PsXJu5oAPYqZeUBvpg6QAe40A3vk",
+        "y": "jCtjxxP58flNBRdJmEiYWZeZ0PbQCztXxIDMiqMgYYo",
+        "crv": "P-256"
       }
     },
     {
@@ -187,9 +187,32 @@
         "x": "-6K1WNiFZpR62zm_qXnr4efh50r46k8oJYheXQLIHkc",
         "y": "wYVBOeVFg48mt8teG72_AI0Vyl3YgtkKY9fdFWVs29I"
       }
+    },
+    {
+      "id": "usr_p_1795608019141_8131",
+      "username": "u_15557680625",
+      "phone": "+15557680625",
+      "displayName": "David TestFriend",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=+15557680625",
+      "status": "Ready to conquer WhatsApp!",
+      "online": false,
+      "lastSeen": "2026-11-25T12:00:19.318Z"
     }
   ],
   "chats": [
+    {
+      "id": "chat_1795608019198_9f4869",
+      "type": "direct",
+      "name": "David TestFriend",
+      "description": "",
+      "avatar": null,
+      "members": [
+        "usr_alex",
+        "usr_p_1795608019141_8131"
+      ],
+      "pinnedMessageId": null,
+      "createdAt": "2026-11-25T12:00:19.198Z"
+    },
     {
       "id": "chat_1794049735925_17d958",
       "type": "direct",
@@ -277,7 +300,8 @@
         "usr_p_1793447649408_78cb",
         "usr_p_1793448347339_29ba",
         "usr_p_1794049735898_14b1",
-        "usr_p_1794049802612_db9d"
+        "usr_p_1794049802612_db9d",
+        "usr_p_1795608019141_8131"
       ],
       "pinnedMessageId": "msg_channel_init",
       "createdAt": "2026-10-29T11:04:26.075Z"
@@ -325,7 +349,8 @@
         "usr_p_1793447649408_78cb",
         "usr_p_1793448347339_29ba",
         "usr_p_1794049735898_14b1",
-        "usr_p_1794049802612_db9d"
+        "usr_p_1794049802612_db9d",
+        "usr_p_1795608019141_8131"
       ],
       "pinnedMessageId": "msg_init_2",
       "createdAt": "2026-10-30T09:50:01.855Z"
@@ -352,7 +377,7 @@
         "usr_alex",
         "usr_sarah"
       ],
-      "pinnedMessageId": "msg_1794049732751_f96caa0e",
+      "pinnedMessageId": "msg_1795608012023_103a3931",
       "createdAt": "2026-10-31T03:50:01.855Z"
     }
   ],
@@ -1896,6 +1921,183 @@
       "replyTo": null,
       "status": "read",
       "createdAt": "2026-11-07T11:18:13.708Z"
+    },
+    {
+      "id": "msg_1795608012023_103a3931",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_sarah",
+      "text": "Automated Test Message: 1795608011962",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {
+        "🚀": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-25T12:00:12.024Z"
+    },
+    {
+      "id": "msg_1795608012699_343c696b",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "[🔒 End-to-End Encrypted]",
+      "encrypted": true,
+      "ciphertext": "jOyOI4qbxfmNY0qWoB3RIVxUNeTvQW5j+bKEnYJ73YtAYvnmHoR+18wn1eF1DBGxjBFKB9QXrekgRj/0hC+Ynp3H97WT+ZDwCioEiHq0z4sw0CpbaQMFlqPGwFyGUqo=",
+      "iv": "Nr9LnPuJWWrqf54O",
+      "senderPublicJwk": {
+        "key_ops": [],
+        "ext": true,
+        "kty": "EC",
+        "x": "7jJbzezlbTsF5QDf9l15bP-Vx9FuK7fC0rCg3A-E3vA",
+        "y": "hi_3FgywObr-fDdJJv8DfaA0efaBlu61UgCc4ylJqFM",
+        "crv": "P-256"
+      },
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "delivered",
+      "createdAt": "2026-11-25T12:00:12.699Z"
+    },
+    {
+      "id": "msg_bot_1795608013420_0d552d",
+      "chatId": "chat_global",
+      "senderId": "usr_pulse_bot",
+      "text": "🤖 Automated system health check from Telegram Bot API.",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-25T12:00:13.453Z"
+    },
+    {
+      "id": "msg_1795608013708_1d21230a",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/price btc",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-25T12:00:13.708Z"
+    },
+    {
+      "id": "msg_bot_1795608014123_dd9480",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📈 **Market Ticker [BTC]**:\n• **Price**: `$94,320.50`\n• **24h Change**: `+3.4%` 🟢\n• **Volume**: `$1.42B`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1795608013708_1d21230a",
+      "status": "read",
+      "createdAt": "2026-11-25T12:00:14.123Z"
+    },
+    {
+      "id": "msg_1795608014127_7fd08c96",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_alex",
+      "text": "/status",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-25T12:00:14.127Z"
+    },
+    {
+      "id": "msg_bot_1795608014556_ba8232",
+      "chatId": "chat_dm_alex_bot",
+      "senderId": "usr_pulse_bot",
+      "text": "📊 **Pulse Cluster Node Status**:\n\n• **Node PID**: `20024`\n• **Uptime**: `2534 seconds`\n• **Memory (RSS)**: `31.6 MB` (Heap: `12.1 MB`)\n• **Transport**: `WebSocket + Cluster Pub/Sub`\n• **Database**: `ACID Active / PostgreSQL Adapter Ready`\n• **Encryption**: `ECDH P-256 + AES-GCM-256 Active`",
+      "attachments": [],
+      "reactions": {
+        "⚡": [
+          "usr_alex"
+        ]
+      },
+      "replyTo": "msg_1795608014127_7fd08c96",
+      "status": "read",
+      "createdAt": "2026-11-25T12:00:14.556Z"
+    },
+    {
+      "id": "msg_post_1795608014572_bf7332",
+      "chatId": "chat_channel_pulse",
+      "senderId": "usr_alex",
+      "text": "🚀 Breaking Update: Pulse reaches 28.4K subscribers on @pulse_official!",
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "read",
+      "createdAt": "2026-11-25T12:00:14.573Z"
+    },
+    {
+      "id": "msg_1795608018920_fb4df873",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "Cross-Node Cluster Sync: 1795608018919",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "sent",
+      "createdAt": "2026-11-25T12:00:18.920Z"
+    },
+    {
+      "id": "msg_1795608019309_013a19a6",
+      "chatId": "chat_1795608019198_9f4869",
+      "senderId": "usr_alex",
+      "text": "Hey David! Testing Pulse with real number.",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [],
+      "reactions": {},
+      "replyTo": null,
+      "status": "delivered",
+      "createdAt": "2026-11-25T12:00:19.309Z"
+    },
+    {
+      "id": "msg_1795608019928_906bf154",
+      "chatId": "chat_dm_alex_sarah",
+      "senderId": "usr_alex",
+      "text": "🎙️ Voice note (0:04)",
+      "encrypted": false,
+      "ciphertext": null,
+      "iv": null,
+      "senderPublicJwk": null,
+      "attachments": [
+        {
+          "url": "/uploads/1795608019679_86e0ad7e.wav",
+          "filename": "voice_note_test.wav",
+          "mimetype": "audio/wav",
+          "size": 352844,
+          "type": "audio",
+          "duration": 4
+        }
+      ],
+      "reactions": {},
+      "replyTo": null,
+      "status": "delivered",
+      "createdAt": "2026-11-25T12:00:19.928Z"
     }
   ]
 }

@@ -2,7 +2,7 @@ const net = require('net');
 const EventEmitter = require('events');
 
 const CLUSTER_PORT = process.env.CLUSTER_PORT || 6380;
-const CLUSTER_HOST = '127.0.0.1';
+const CLUSTER_HOST = process.env.CLUSTER_HOST || '127.0.0.1';
 
 class ClusterBus extends EventEmitter {
   constructor() {

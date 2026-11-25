@@ -24,6 +24,7 @@ const io = new Server(server, {
 });
 
 const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || '0.0.0.0';
 const UPLOADS_DIR = path.join(__dirname, '../uploads');
 
 // Ensure uploads directory exists
@@ -61,8 +62,33 @@ app.get('/api/health', (req, res) => {
   res.json({
     status: 'online',
     appName: 'Pulse Messenger',
-    version: '1.0.0',
+    version: '1.4.0',
+    uptime: Math.floor(process.uptime()),
     timestamp: new Date().toISOString()
+  });
+});
+
+// Public Config (Safe client-facing endpoints: STUN/TURN, public URL)
+app.get('/api/config/public', (req, res) => {
+  const stunServers = (process.env.STUN_SERVERS || 'stun:stun.l.google.com:19302,stun:stun1.l.google.com:19302')
+    .split(',')
+    .map(url => ({ urls: url.trim() }));
+
+  const iceServers = [...stunServers];
+
+  if (process.env.TURN_SERVER && process.env.TURN_USERNAME && process.env.TURN_CREDENTIAL) {
+    iceServers.push({
+      urls: process.env.TURN_SERVER,
+      username: process.env.TURN_USERNAME,
+      credential: process.env.TURN_CREDENTIAL
+    });
+  }
+
+  res.json({
+    appName: 'Pulse Messenger',
+    version: '1.4.0',
+    publicUrl: process.env.PUBLIC_URL || `http://${req.headers.host}`,
+    iceServers
   });
 });
 
@@ -413,10 +439,34 @@ initSocket(io, clusterBus);
 botEngine.setIO(io);
 
 // Start server and initialize cluster bus
-server.listen(PORT, async () => {
+server.listen(PORT, HOST, async () => {
   await clusterBus.init();
   console.log(`===============================================`);
-  console.log(`🚀 Pulse Messenger server is live on http://localhost:${PORT}`);
+  console.log(`🚀 Pulse Messenger server is live on http://${HOST}:${PORT}`);
   console.log(`📱 Mode: Multi-Node Cluster Ready + Telegram Channels & Bot API`);
   console.log(`===============================================`);
 });
+
+// Graceful shutdown handler (for Docker, Kubernetes & PM2)
+function gracefulShutdown(signal) {
+  console.log(`\n🛑 Received ${signal}. Gracefully stopping Pulse Messenger...`);
+  server.close(() => {
+    console.log('HTTP and WebSocket server closed.');
+    try {
+      db.save();
+      console.log('Database state persisted.');
+    } catch (e) {
+      console.error('Error saving DB during shutdown:', e);
+    }
+    process.exit(0);
+  });
+
+  // Force exit after 10s if connections fail to close
+  setTimeout(() => {
+    console.error('Forced exit timeout exceeded.');
+    process.exit(1);
+  }, 10000);
+}
+
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
+process.on('SIGINT', () => gracefulShutdown('SIGINT'));
